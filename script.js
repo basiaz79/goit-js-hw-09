@@ -22,5 +22,6 @@ startButton.addEventListener('click', () => {
 });
 
 stopButton.addEventListener('click', () => {
+    stopButton.disabled = true;
     // 
 });
