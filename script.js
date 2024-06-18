@@ -7,20 +7,20 @@ const stopButton = document.querySelector('[data-stop]');
 let isChangingColor = false;
 
 function changeBackgroundColor() {
-    // ?
+    // 
     document.body.style.backgroundColor = getRandomHexColor();
     setTimeout(changeBackgroundColor, 1000);
 }
 
 startButton.addEventListener('click', () => {
-    // ?
+    // 
        isChangingColor = true;
-       // ?
+       // 
        changeBackgroundColor();
-       stopButton.disabled = true;
+       startButton.disabled = true;
     //
 });
 
 stopButton.addEventListener('click', () => {
-    // ?
+    // 
 });
