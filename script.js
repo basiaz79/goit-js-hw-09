@@ -17,6 +17,7 @@ startButton.addEventListener('click', () => {
        isChangingColor = true;
        // ?
        changeBackgroundColor();
+       stopButton.disabled = true;
     //
 });
 
