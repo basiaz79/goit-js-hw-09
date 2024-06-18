@@ -20,7 +20,7 @@ function changeBackgroundColor() {
   }
 }
   
-//zmiana koloru jest w toku i dezaktywuje przycisk "Start", a aktywuje przycisk "Stop".
+//zmiana koloru jest w toku- dezaktywuje przycisk "Start", a aktywuje przycisk "Stop".
 startButton.addEventListener('click', () => {
   if (!isChangingColor) {
     isChangingColor = true;
